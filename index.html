@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Digital clock-Joy Sd</title>
+  </head>
+  <body class="bg-slate-600 bg-cover">
+    <div class="pb-12"></div>
+    <div class="heading bg-slate-500  rounded-xl ">
+      <h1 class="text-center text-6xl p-10 font-bold">
+        A Digital Timer Using Javascript
+      </h1>
+    </div>
+
+    <div class="clock pt-20">
+      <div class="card w-96 glass">
+        <div class="card-body">
+            <div class="time grid grid-cols-3 justify-center">
+                <h2 id="hour" class="card-title">Hour</h2>
+                <h2 id="min" class="card-title">Min</h2>
+                <h2 id="sec" class="card-title">Sec</h2>
+                <h2 id="hour-time" class="card-title">0</h2>
+                <h2 id="min-time" class="card-title">0</h2>
+                <h2 id="sec-time" class="card-title">0</h2>
+          
+            </div>
+          
+          <div class="card-actions justify-center">
+            <button id="start" class="btn btn-primary">Start</button>
+            <button id="stop" class="btn btn-primary">Stop</button>
+            <button id="reset" class="btn btn-primary">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-40"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
